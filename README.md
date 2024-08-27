@@ -42,7 +42,7 @@ cd /
 mkdir .ssh/
 ```
 
-把windows下面的id_rsa和id_rsa.pub放在Ubuntu的用户下面新建的.ssh/目录内，然后chmod 777 .ssh/*提权即可
+把windows下面的id_rsa和id_rsa.pub放在Ubuntu的用户下面新建的.ssh/目录内，然后chmod 700 -R .ssh/*提权即可
 
 
 # 开发编译环境配置
