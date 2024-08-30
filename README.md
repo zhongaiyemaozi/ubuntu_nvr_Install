@@ -63,16 +63,16 @@ sudo apt-get install build-essential libc6-dev lib32ncurses5-dev libncurses5-dev
 
 ```
 cd /
-mkdir /opt/ivot
+sudo mkdir /opt/ivot
 sudo tar -jxvf aarch64-ca53-linux-gnueabihf-8.4.01.tar.bz2 -C /opt/ivot
 ```
 
 变更Shell 的 symbolic link
 
 ```
-ls -l /bin/sh
-rm –rf /bin/sh
-ln -s /bin/bash /bin/sh
+sudo ls -l /bin/sh
+sudo rm –rf /bin/sh
+sudo ln -s /bin/bash /bin/sh
 ```
 
 输入为/bin/bash代表编译SDK成功。
