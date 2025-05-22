@@ -54,6 +54,8 @@ sudo apt-get clean
 sudo apt-get autoremove
 sudo apt install lzop
 sudo apt install libsdl2-dev
+sudo apt install nodejs npm
+npm i lv_i18n -g
 
 sudo apt-get install build-essential libc6-dev lib32ncurses5-dev libncurses5-dev libncurses5:i386 libgl1-mesa-dev g++-multilib mingw-w64 tofrodos lib32z1 u-boot-tools zlib1g-dev bison libbison-dev flex mtd-utils vim squashfs-tools gawk cmake cmake-data liblz4-tool libmpc3 libstdc++6 device-tree-compiler android-sdk-libsparse-utils android-sdk-ext4-utils texinfo python3-pyelftools python3-crypto libssl-dev
 ```
